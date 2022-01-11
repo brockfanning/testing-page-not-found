@@ -12,3 +12,4 @@ cp -r ./_site/* ./_test$JEKYLL_BASEURL/ &&
 touch ./_test/index.html &&
 bundle exec htmlproofer --disable-external ./_test &&
 rm -rf ./_test
+
